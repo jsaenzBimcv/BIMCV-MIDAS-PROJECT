@@ -26,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+tests/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -75,7 +76,10 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+*.h5
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -117,7 +121,7 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
+# mkdocs documentationgpt partition style
 /site
 
 # mypy
