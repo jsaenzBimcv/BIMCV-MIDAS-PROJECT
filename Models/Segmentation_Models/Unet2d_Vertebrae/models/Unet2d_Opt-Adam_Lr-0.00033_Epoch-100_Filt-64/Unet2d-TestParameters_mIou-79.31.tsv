@@ -1,0 +1,28 @@
+	parameters
+MODEL_NAME	Unet2d_Opt-Adam_Lr-0.00033_Epoch-100_Filt-64
+VERBOSE	1
+USE_BATCH_NORMALIZATION	True
+DROPOUT_P	0.5
+N_FILTERS	64
+PATIENCE	5
+LR_GAMMA	0.01
+OPTIMIZER	Adam
+LR	0.00033
+CLASSIFIER_ACTIVATION	softmax
+LOSS	<keras.losses.CategoricalCrossentropy object at 0x7f1950538828>
+METRICS	[<keras.metrics.Recall object at 0x7f17dc04fe80>, <keras.metrics.Precision object at 0x7f17dc04ffd0>, <keras.metrics.CategoricalAccuracy object at 0x7f17dc4e9390>, <function mean_iou at 0x7f18a98c97b8>]
+NUM_CLASS	2
+DATA_AUGMENTATION_ONLINE	True
+IMAGE_SIZE	(256, 256)
+BATCH_SIZE	20
+MAX_EPOCH	100
+VALIDATION_SIZE	0.25
+TEST_SIZE	0.2
+MODE	train
+MODEL_TYPE	Unet2d
+PARTITION_PATH	./dataset/subjects_partition.tsv
+STORE_PATH	./models/
+DATA_ROOT_PATH	/nvmescratch/jsaenz/UC09/
+TEST-LOSS	0.08602002263069153
+TEST-mIou	0.7930827736854553
+TEST-ACC	0.9791569709777832
