@@ -47,7 +47,18 @@ The [Table 1](#table1) shows the U-Net model and combination of the configuratio
 
 All models are trained for 100 epochs, In all cases the activation function in the output layer was the softmax and the loss the categorical cross entropy.
 
-* You can label your own images by downloading the <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS project</a> model weights.
+You can label your own images with the script: predict_SpineSegmentation.py
+
+Inputs:
+
+- nifty_path (str): the path to the T2 weighted image nifti file, .nii.gz extension.
+
+- model_path (str): the path to the model file, JSON-format data. Models in [Table 1](#table1).   
+
+- weights-path (str): the path to the model weights file, .h5 extension. Weights of the models in: <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS project</a>
+
+
+
 
 Intersection over Union (IoU) [(Long et al., 2015)](#2) was used as the metric to compare the performance of the evaluated network architectures.
 
