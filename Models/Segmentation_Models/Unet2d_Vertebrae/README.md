@@ -3,6 +3,8 @@
 
 The approach proposed in this work is based on convolutional neural networks whose output is a mask where each pixel from the input image is classified into one of the possible classes, Background or Vertebrae.
 
+The proposed network architecture is based on the U-Net neural network model [(Ronneberger et al., 2015)](#1).
+
 The Trained Models are provided here.
 
 Prerequisite:
@@ -44,7 +46,7 @@ All models are trained for 100 epochs, In all cases the activation function in t
 You can label your own images by downloading the <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS project</a> model weights.
 
 
-Intersection over Union (IoU) [(Long et al., 2015)](#1) was used as the metric to compare the performance of the evaluated network architectures.
+Intersection over Union (IoU) [(Long et al., 2015)](#2) was used as the metric to compare the performance of the evaluated network architectures.
 
 If you use this code please cite:
 
@@ -53,8 +55,9 @@ J. J. Saenz-Gamboa, M. de la Iglesia-Vayá and J. A. Gómez, "Automatic Semantic
 <a id='references'></a>
 ## References
 
-<a id="1">[1]</a>Long J, Shelhamer E, Darrell T. Fully convolutional networks for semantic segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR). 2015. p. 3431–40.</a>
-<a id="2">[2]</a> Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. Springer; 2015. p. 234–41.
+<a id="2">[1]</a> Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. Springer; 2015. p. 234–41.
+
+<a id="1">[2]</a>Long J, Shelhamer E, Darrell T. Fully convolutional networks for semantic segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR). 2015. p. 3431–40.</a>
 
 ## Rights and permissions.
 
