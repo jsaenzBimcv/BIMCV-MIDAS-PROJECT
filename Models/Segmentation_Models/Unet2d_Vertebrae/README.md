@@ -19,9 +19,10 @@ Prerequisite:
 ### 1. Experiments 
 
 The dataset used in this work was extracted from the <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS corpus</a>.
-The manual semantic segmentation was carried out by two expert radiologists with a high expertise in skeletal muscle pathology. 
-Sagittal T2-weighted images were used to distinguish the anatomical silhouette of the vertebrae in the lumbar region.
 The used MR images come from scanning sessions corresponding to 100 different patients, each scanning session has a different number of slices.
+
+Sagittal T2-weighted images were used to distinguish the anatomical silhouette of the vertebrae in the lumbar region.
+The manual semantic segmentation was carried out by two expert radiologists with a high expertise in skeletal muscle pathology. 
 
 The split into three partitions training, validation and test was done at the level of patient in order to guarantee no 2-D images from the same patient appear in different partitions.
 
