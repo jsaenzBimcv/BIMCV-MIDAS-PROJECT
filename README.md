@@ -14,11 +14,5 @@ This work is supported by the Regional Ministry of Health of the Valencian Regio
 
 Authors thanks the <a href="https://www.cipf.es/science/research/bioinformatics-and-computational-biology/bioinformatics-and-biostatistics-unit"> Bioinformatics and Biostatistics Unit from Principe Felipe Research Center (CIPF)</a> for providing access to the cluster co-funded by European Regional Development Funds (FEDER) in the Valencian Community 2014-2020, and by the Biomedical Imaging Mixed Unit from Fundació per al Foment de la Investigació Sanitaria i biomedica (FISABIO) for providing access to the cluster openmind, co-funded by European Regional Development Funds (FEDER) in Valencian Community 2014-2020.
 In addition, it is part of the use cases of the European project DeepHealth.
-
-This research was developed as part of the PhD research:
-Researcher:
-
-In collaboration with: 
-* <a href="https://">Laboratorio </a>, Universitat, Spain.
-* <a href="http://www.cipf.es/cipf-fisabio-joint-research-unit-biomedical-imaging">Biomedical Imaging Joint Unit, Foundation for the Promotion of Health and Biomedical Research (FISABIO) and the Principe Felipe Research Center (CIPF)</a>, València, Spain.
-
+ 
+Authors thanks the <a href="https://artemisa.ific.uv.es/web/">Instituto de Física Corpuscular</a> for providing access to the Artemisa cluster co-funded by European Regional Development Funds (FEDER) in the Valencian Community 2014-2020 
