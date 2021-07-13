@@ -49,7 +49,7 @@ All models are trained for 100 epochs, In all cases the activation function in t
 
 You can label your own images with the script: predict_SpineSegmentation.py
 
-Inputs:
+Args:
 
 - nifty_path (str): the path to the T2 weighted image nifti file, .nii.gz extension.
 
@@ -57,7 +57,10 @@ Inputs:
 
 - weights-path (str): the path to the model weights file, .h5 extension. Weights of the models in: <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS project</a>
 
+- save_path(str): the path to the save screenshots of the MRI image and segmentation predicted, if save-path is empty them screenshots will not be saved
 
+Returns:
+- segmentation (np.ndarray) :  segmented image, the shape [slice][width][height][class]
 
 
 Intersection over Union (IoU) [(Long et al., 2015)](#2) was used as the metric to compare the performance of the evaluated network architectures.
