@@ -25,9 +25,9 @@ The [Table 1](#table1) shows the variations from the U-Net and combination of th
 
 | Models Configuration  | mIOU (%)                     |
 |------|------------------------------------|
-|<a href="https://github.com/jsaenzBimcv/MIDAS-Project/blob/main/Models/Segmentation_Models/Unet2d_LSSpine/models/plot_models/UDD2.svg">UDD2</a>| 79.31 |
-|<a href="https://github.com/jsaenzBimcv/MIDAS-Project/blob/main/Models/Segmentation_Models/Unet2d_LSSpine/models/plot_models/UMDD.svg">UMDD</a>| 85.93 |
-|<a href="https://github.com/jsaenzBimcv/MIDAS-Project/blob/main/Models/Segmentation_Models/Unet2d_LSSpine/models/plot_models/UDD.svg">UDD</a>| 84.12 |
+|<a href="https://github.com/jsaenzBimcv/BIMCV-MIDAS-PROJECT/tree/main/Models/Segmentation_Models/Unet2d_Vertebrae/models/Unet2d_Opt-Adam_Lr-0.00033_Epoch-100_Filt-64">Unet2d_Opt-Adam_Lr-0.00033_Epoch-100_Filt-64</a>| 79.31 |
+|<a href="https://github.com/jsaenzBimcv/BIMCV-MIDAS-PROJECT/tree/main/Models/Segmentation_Models/Unet2d_Vertebrae/models/Unet2d_Opt-RMSprop_Lr-0.00033_Epoch-100_Filt-32">Unet2d_Opt-RMSprop_Lr-0.00033_Epoch-100_Filt-32</a>| 85.93 |
+|<a href="https://github.com/jsaenzBimcv/BIMCV-MIDAS-PROJECT/tree/main/Models/Segmentation_Models/Unet2d_Vertebrae/models/Unet2d_Opt-RMSprop_Lr-0.00033_Epoch-100_Filt-64">Unet2d_Opt-RMSprop_Lr-0.00033_Epoch-100_Filt-64</a>| 84.12 |
 
 
 </sub>
