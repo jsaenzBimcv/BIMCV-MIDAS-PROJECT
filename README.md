@@ -12,7 +12,7 @@ Low back pain is a prevalent pathology and a frequent cause of disability. It is
 
 This work is supported by the Regional Ministry of Health of the Valencian Region, under MIDAS project from BIMCV--Generalitat Valenciana, under the grant agreement ACIF/2018/285.
 
-Authors thanks the Bioinformatics and Biostatistics Unit from Principe Felipe Research Center (CIPF) for providing access to the cluster co-funded by European Regional Development Funds (FEDER) in the Valencian Community 2014-2020, and by the Biomedical Imaging Mixed Unit from Fundació per al Foment de la Investigació Sanitaria i biomedica (FISABIO) for providing access to the cluster openmind, co-funded by European Regional Development Funds (FEDER) in Valencian Community 2014-2020.
+Authors thanks the <a href="https://www.cipf.es/science/research/bioinformatics-and-computational-biology/bioinformatics-and-biostatistics-unit"> Bioinformatics and Biostatistics Unit from Principe Felipe Research Center (CIPF)</a> for providing access to the cluster co-funded by European Regional Development Funds (FEDER) in the Valencian Community 2014-2020, and by the Biomedical Imaging Mixed Unit from Fundació per al Foment de la Investigació Sanitaria i biomedica (FISABIO) for providing access to the cluster openmind, co-funded by European Regional Development Funds (FEDER) in Valencian Community 2014-2020.
 In addition, it is part of the use cases of the European project DeepHealth.
 
 This research was developed as part of the PhD research:
