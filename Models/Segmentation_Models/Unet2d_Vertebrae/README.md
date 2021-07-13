@@ -19,7 +19,10 @@ Prerequisite:
 ### 1. Experiments 
 
 The dataset used in this work was extracted from the <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS corpus</a>.
+The manual semantic segmentation was carried out by two expert radiologists with a high expertise in skeletal muscle pathology. 
+Sagittal T2-weighted images were used to distinguish the anatomical silhouette of the vertebrae in the lumbar region.
 The used MR images come from scanning sessions corresponding to 100 different patients, each scanning session has a different number of slices.
+
 The split into three partitions training, validation and test was done at the level of patient in order to guarantee no 2-D images from the same patient appear in different partitions.
 
 In <a href="https://github.com/jsaenzBimcv/BIMCV-MIDAS-PROJECT/blob/main/Models/Segmentation_Models/Unet2d_Vertebrae/Unet2d_Spine.ipynb">Unet2d_Spine.ipynb</a>, the procedure followed for training the networks is detailed.
@@ -62,6 +65,4 @@ J. J. Saenz-Gamboa, M. de la Iglesia-Vayá and J. A. Gómez, "Automatic Semantic
 ## Rights and permissions.
 
  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>., which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.
-
-## Acknowledgments
 
