@@ -44,11 +44,17 @@ All models are trained for 100 epochs, In all cases the activation function in t
 You can label your own images by downloading the <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS project</a> model weights.
 
 
-Intersection over Union (IoU) [(Long et al., 2015)](#12) was used as the metric to compare the performance of the evaluated network architectures.
+Intersection over Union (IoU) [(Long et al., 2015)](#1) was used as the metric to compare the performance of the evaluated network architectures.
 
 If you use this code please cite:
 
 J. J. Saenz-Gamboa, M. de la Iglesia-Vayá and J. A. Gómez, "Automatic Semantic Segmentation of Structural Elements related to the Spinal Cord in the Lumbar Region by using Convolutional Neural Networks," 2020 25th International Conference on Pattern Recognition (ICPR), 2021, pp. 5214-5221, <a href="https://doi.org/10.1109/ICPR48806.2021.9412934">doi:10.1109/ICPR48806.2021.9412934.</a>
+
+<a id='references'></a>
+## References
+
+<a id="1">[1]</a>Long J, Shelhamer E, Darrell T. Fully convolutional networks for semantic segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR). 2015. p. 3431–40.</a>
+<a id="2">[2]</a> Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. Springer; 2015. p. 234–41.
 
 ## Rights and permissions.
 
