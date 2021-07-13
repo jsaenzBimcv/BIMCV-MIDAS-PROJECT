@@ -41,6 +41,9 @@ The [Table 1](#table1) shows the U-Net model and combination of the configuratio
 
 All models are trained for 100 epochs, In all cases the activation function in the output layer was the softmax and the loss the categorical cross entropy.
 
+You can label your own images by downloading the <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS project</a> model weights.
+
+
 Intersection over Union (IoU) [(Long et al., 2015)](#12) was used as the metric to compare the performance of the evaluated network architectures.
 
 If you use this code please cite:
