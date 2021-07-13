@@ -20,7 +20,7 @@ The split into three partitions training, validation and test was done at the le
 
 In <a href="https://github.com/jsaenzBimcv/BIMCV-MIDAS-PROJECT/blob/main/Models/Segmentation_Models/Unet2d_Vertebrae/Unet2d_Spine.ipynb">Unet2d_Spine.ipynb</a>, the procedure followed for training the networks is detailed.
 
-The [Table 1](#table1) shows the variations from the U-Net and combination of the configuration parameters that obtained the best results.
+The [Table 1](#table1) shows the U-Net model and combination of the configuration parameters that obtained the best results.
 
 <div align="center"> 
 <sub> 
@@ -31,14 +31,13 @@ The [Table 1](#table1) shows the variations from the U-Net and combination of th
 |<a href="https://github.com/jsaenzBimcv/BIMCV-MIDAS-PROJECT/tree/main/Models/Segmentation_Models/Unet2d_Vertebrae/models/Unet2d_Opt-RMSprop_Lr-0.00033_Epoch-100_Filt-32">Unet2d_Opt-RMSprop_Lr-0.00033_Epoch-100_Filt-32</a>| 85.93 |
 |<a href="https://github.com/jsaenzBimcv/BIMCV-MIDAS-PROJECT/tree/main/Models/Segmentation_Models/Unet2d_Vertebrae/models/Unet2d_Opt-RMSprop_Lr-0.00033_Epoch-100_Filt-64">Unet2d_Opt-RMSprop_Lr-0.00033_Epoch-100_Filt-64</a>| 84.12 |
 
-
 </sub>
 </div>
 <p align="center">
-<a id="table1">Table 1:</a> Parameters settings of the CNN architectures.
+<a id="table1">Table 1:</a> Parameters tested in the U-Net 2D model.
 </p>
 
-All variations designed from the U-Net architecture are trained for 300 epochs, In all cases the activation function in the output layer was the softmax and the loss the categorical cross entropy.
+All models are trained for 100 epochs, In all cases the activation function in the output layer was the softmax and the loss the categorical cross entropy.
 
 Intersection over Union (IoU) [(Long et al., 2015)](#12) was used as the metric to compare the performance of the evaluated network architectures.
 
@@ -51,12 +50,4 @@ J. J. Saenz-Gamboa, M. de la Iglesia-Vayá and J. A. Gómez, "Automatic Semantic
  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>., which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.
 
 ## Acknowledgments
-
-This research was developed as part of the PhD research:
-Researcher:
-
-In collaboration with: 
-* <a href="https://">Laboratorio de , València, Spain.
-* <a href="http://www.cipf.es/cipf-fisabio-joint-research-unit-biomedical-imaging">Biomedical Imaging Joint Unit, Foundation for the Promotion of Health and Biomedical Research (FISABIO) and the Principe Felipe Research Center (CIPF)</a>, València, Spain.
-* Models were trained on IFIC's dedicated Artificial Intelligence computing platform, <a href="https://artemisa.ific.uv.es/web/">Artemisa</a>.
 
