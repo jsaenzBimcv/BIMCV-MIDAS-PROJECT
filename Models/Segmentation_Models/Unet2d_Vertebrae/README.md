@@ -12,13 +12,15 @@ Prerequisite:
 - tensorflow 2.1.0
 - keras 2.3.1
 
-### 2. Experiments 
+### 1. Experiments 
 
-The dataset used in this work was extracted from the <a href="https://github.com/jsaenzBimcv/MIDAS-Project/tree/main/Datasets">MIDAS corpus</a>.
+The dataset used in this work was extracted from the <a href="https://bimcv.cipf.es/bimcv-projects/project-midas/">MIDAS corpus</a>.
 The used MR images come from scanning sessions corresponding to 100 different patients, each scanning session has a different number of slices.
 The split into three partitions training, validation and test was done at the level of patient in order to guarantee no 2-D images from the same patient appear in different partitions.
 
-The [Table 1](#table1) shows the variations from the U-Net and combination of the configuration parameters that obtained the best results for each network aechitecture.
+In <a href="https://github.com/jsaenzBimcv/BIMCV-MIDAS-PROJECT/blob/main/Models/Segmentation_Models/Unet2d_Vertebrae/Unet2d_Spine.ipynb">Unet2d_Spine.ipynb</a>, the procedure followed for training the networks is detailed.
+
+The [Table 1](#table1) shows the variations from the U-Net and combination of the configuration parameters that obtained the best results.
 
 <div align="center"> 
 <sub> 
