@@ -1,6 +1,8 @@
 # Semantic Segmentation of Vertebra using Convolutional Neural Networks 
 --------------------------------------------------------------------------
 
+The approach proposed in this work is based on convolutional neural networks whose output is a mask where each pixel from the input image is classified into one of the possible classes, Background or Vertebrae.
+
 The Trained Models are provided here.
 
 Prerequisite:
